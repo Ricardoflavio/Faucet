@@ -1,0 +1,149 @@
+/*responsivo note*/
+
+@media(max-width:1360px) {
+    
+
+    .icones {
+  max-width: 100%;
+    }
+
+    .img {
+        display: block;
+        height: 80%;
+
+    }
+
+    .menu-principal {
+        font-size: 1.3rem;
+    }
+
+    .card-deck {
+    
+        height: 0 auto;
+        max-width: 80%;
+    }
+
+    .card-nborder img{
+        width: 80%;
+
+    }
+
+    .card-body text-center {
+
+        max-width: 80%;
+    }
+    .botao{
+
+        max-width: 80%;
+    }
+    .footer{
+        max-width: 80%;
+    }
+}
+
+
+/*responsivo Surface Pro7...*/
+
+
+@media(max-width:930px) {
+    
+    .body{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .icones {
+  max-width: 50%;
+    }
+
+    .img {
+        display: block;
+        height: 80%;
+
+    }
+
+    .menu-principal {
+        font-size: 1.3rem;
+    }
+
+
+    .card-deck {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    .card-nborder img{
+        width: 80%;
+
+    }
+
+    .text-center{
+      
+        max-width: 80%;
+    }
+    .button{
+
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
+    .footer{
+        background-color: aqua;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+
+/*responsivo Galaxi note 9*/
+
+
+@media(max-width:414px) {
+    
+
+    .icones {
+  max-width: 100%;
+    }
+
+    .img {
+        height: 60%;
+
+    }
+
+    .menu-principal {
+        display: none;
+        font-size: 1.3rem;
+    }
+
+
+    .card-deck {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        max-width: 60%;
+    }
+
+    .card-nborder img{
+        height: auto;
+        width: 60%;
+
+    }
+
+    .card-body text-center {
+
+        max-width: 60%;
+    }
+    .button {
+    
+       height: auto;
+        margin: auto;
+    
+    }
+    .footer{
+        max-width: 60%;
+    }
+}

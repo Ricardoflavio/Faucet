@@ -1,0 +1,103 @@
+body {
+    max-width: 98%;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(90deg, #3d2fffdc 15%, #e434ffe7 40%, #fff534ef 60%, #028f09ea 100%);
+    background-size: 150% 150%;
+    animation: float 6s linear infinite alternate;
+}
+
+@keyframes float {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 50% 50%;
+    }
+}
+
+
+.icones {
+    flex-direction: column;
+    position: fixed;
+    top: 20;
+    right: 0;
+    display: flex;
+    width: 50px;
+    gap: 10px;
+
+}
+
+.menu-principal h1 {
+
+    display: inline;
+    padding: 200px;
+}
+
+img {
+    border-radius: 6px;
+}
+
+.menu img {
+
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    padding: 10px;
+
+}
+
+
+.links-menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 25px;
+    font-size: larger;
+}
+
+.btn {
+    background-color: #2a032c;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    margin-top: 50px;
+    padding: 20px;
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.card-nborder {
+    max-width: 90%;
+    background-color: #2618f5ad;
+    border-radius: 6px;
+}
+
+h4 {
+    max-width: 100%;
+    margin: 0 auto;
+    color: #2618f5ad;
+}
+
+h4 svg {
+    width: 30px;
+    height: 30px;
+
+}
+
+.button {
+    max-width: 100%;
+    margin: 50px;
+
+}
+
+.footer {
+
+    display: flex;
+    max-width: 100%;
+
+}
